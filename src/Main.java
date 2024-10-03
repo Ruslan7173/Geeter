@@ -20,6 +20,8 @@ class Animal {
     private int ves;
     private String color;
     private String begin;
+    private String begin1;
+    private String begin2;
 
     public Animal (String name, int ves, String color ) {
         this.name = name;
