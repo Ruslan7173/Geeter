@@ -19,7 +19,7 @@ class Animal {
     private String name;
     private int ves;
     private String color;
-    private String bepgin
+    private String begin;
 
     public Animal (String name, int ves, String color ) {
         this.name = name;
