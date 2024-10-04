@@ -5,7 +5,7 @@ import javax.xml.catalog.Catalog;
 // а также свои поля, сеттеры, геттеры.
 public class Main {
     public static void main(String[] args) {
-        Animal animal1 = new Animal("Homyak", 3, "Withe");
+        Hom hom1 = new Hom ("Homyak", 3, "Withe");
 //        hom1.setName("Homa");
 //        hom1.setVes(-1);
 //        System.out.println(hom1.getName());
@@ -15,7 +15,7 @@ public class Main {
     }
 }
 
-class Animal {
+class Hom {
     private String name;
     private int ves;
     private String color;
@@ -23,8 +23,9 @@ class Animal {
     private String begin1;
     private String begin2;
     private String begin3;
+    private String begin4;
 
-    public Animal (String name, int ves, String color ) {
+    public Hom (String name, int ves, String color ) {
         this.name = name;
         this.ves = ves;
         this.color = color;
